@@ -27,16 +27,15 @@ skin-aging/
 ├─ config/
 ├─ scripts/
 │ ├─ 00_cellranger.sh
-│ ├─ 01_qc_scrublet.py
+│ ├─ 01_Data_import_and_Processing.py
 │ ├─ 02_decontx.R
-│ ├─ 03_integration_scvi.py
-│ ├─ 04_annotation_scanpy.py
-│ ├─ 05_composition_stats.R
+│ ├─ 03_Basic_Process_for_the_remove_ambientRNA_count.py
+│ ├─ 04_integration_scvi.py
+│ ├─ 05_composition_analysis.py
 │ ├─ 06_pseudobulk_DE.R
 │ ├─ 07_GAM_age_model.R
 │ ├─ 08_modules_clusterGvis.R
-│ ├─ 09_senskin_scoring.R
-│ └─ 10_external_benchmarking.R
+│ └─ 09_external_benchmarking.R
 └─ .gitignore
 
 > Note: large intermediate results (e.g., `*.h5ad`, `*.rds`) should not be committed to GitHub. See `.gitignore`.
