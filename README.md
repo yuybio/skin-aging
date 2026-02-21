@@ -21,11 +21,11 @@ Processed data products generated in this work (expression matrices, integrated 
 ---
 
 ## Repository structure
-skin-aging/
+```skin-aging/
 ├─ README.md
 ├─ LICENSE
 ├─ config/
-├─ scripts/
+├─ code/
 │ ├─ 00_cellranger.sh
 │ ├─ 01_Data_import_and_Processing.py
 │ ├─ 02_decontx.R
@@ -37,6 +37,7 @@ skin-aging/
 │ ├─ 08_modules_clusterGvis.R
 │ └─ 09_external_benchmarking.R
 └─ .gitignore
+```
 
 > Note: large intermediate results (e.g., `*.h5ad`, `*.rds`) should not be committed to GitHub. See `.gitignore`.
 
