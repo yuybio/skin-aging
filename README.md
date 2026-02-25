@@ -2,8 +2,8 @@
 
 Code and reproducible analysis workflow for the manuscript:
 
-**“A single-cell atlas of age-associated changes in sun-protected human penile skin reveals stromal depletion and inflammatory fibroblast remodeling”**  
-(submitted to *GeroScience*)
+**“Fibroblast state remodeling and stromal depletion shape the aging microenvironment of human penile skin”**  
+(submitted to *Experimental Dermatology*)
 
 This repository contains scripts for reprocessing, integration, and downstream analyses of human penile skin scRNA-seq data, including donor-aware pseudo-bulk modeling, continuous-age trend modeling, temporal module analysis, and senescence signature anchoring (SenSkin™).
 
@@ -17,6 +17,10 @@ Raw sequencing data (FASTQ) were obtained from the **Genome Sequence Archive (GS
 ### Processed data
 Processed data products generated in this work (expression matrices, integrated object, and donor metadata) are available on Figshare:  
 - **DOI:** 10.6084/m9.figshare.30498725
+        
+        
+        
+        
 
 ---
 
